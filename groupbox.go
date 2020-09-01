@@ -344,7 +344,7 @@ func (gb *GroupBox) WndProc(hwnd win.HWND, msg uint32, wParam, lParam uintptr) u
 			if !win.MoveWindow(
 				gb.hWndGroupBox,
 				int32(wbcb.X),
-				int32(wbcb.Y-offset),
+				int32(wbcb.Y),
 				int32(wbcb.Width),
 				int32(wbcb.Height),
 				true) {
