@@ -9,7 +9,7 @@ package declarative
 import (
 	"path/filepath"
 
-	"github.com/lxn/walk"
+	"github.com/winxxp/walk"
 )
 
 func tr(source string, context ...string) string {
