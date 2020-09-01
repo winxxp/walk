@@ -12,8 +12,8 @@ import (
 )
 
 import (
-	"github.com/lxn/walk"
 	. "github.com/lxn/walk/declarative"
+	"github.com/winxxp/walk"
 )
 
 func main() {
@@ -29,8 +29,8 @@ func main() {
 			HSplitter{
 				Children: []Widget{
 					ListBox{
-						AssignTo: &mw.lb,
-						Model:    mw.model,
+						AssignTo:              &mw.lb,
+						Model:                 mw.model,
 						OnCurrentIndexChanged: mw.lb_CurrentIndexChanged,
 						OnItemActivated:       mw.lb_ItemActivated,
 					},

@@ -9,7 +9,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/lxn/walk"
+	"github.com/winxxp/walk"
 
 	. "github.com/lxn/walk/declarative"
 )

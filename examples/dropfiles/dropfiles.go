@@ -7,8 +7,8 @@ package main
 import (
 	"strings"
 
-	"github.com/lxn/walk"
 	. "github.com/lxn/walk/declarative"
+	"github.com/winxxp/walk"
 )
 
 func main() {

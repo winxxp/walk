@@ -7,7 +7,7 @@ package main
 import (
 	"log"
 
-	"github.com/lxn/walk"
+	"github.com/winxxp/walk"
 
 	. "github.com/lxn/walk/declarative"
 	"github.com/lxn/win"

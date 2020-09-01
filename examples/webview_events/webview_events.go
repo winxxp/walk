@@ -9,8 +9,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/lxn/walk"
 	. "github.com/lxn/walk/declarative"
+	"github.com/winxxp/walk"
 )
 
 type MainWin struct {
@@ -50,7 +50,7 @@ func NewMainWin() (*MainWin, error) {
 			WebView{
 				AssignTo:                  &mainWin.wv,
 				Name:                      "wv",
-				URL:                       "https://github.com/lxn/walk",
+				URL:                       "https://github.com/winxxp/walk",
 				ShortcutsEnabled:          true,
 				NativeContextMenuEnabled:  true,
 				OnNavigating:              mainWin.webView_OnNavigating,
